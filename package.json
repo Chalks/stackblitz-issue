@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "lint": "eslint --ext .js,.vue .",
+    "test": "jest --verbose",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.9.0",
+    "nuxt": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.8",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.13",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "jest": "^27.4.7",
+    "tailwindcss": "^3.2.4"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
